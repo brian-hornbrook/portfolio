@@ -1,0 +1,79 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+
+
+/***** grid *****/
+#vision-board {
+    width: 1200px;
+    min-width: 1200px;
+    height: 850px;
+    background-image: url(../img/visionboard/background.png);
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+
+
+/***** sizes *****/
+.large-block {
+    height: 430px;
+    padding-top: 50px;
+}
+
+.small-block {
+    height: 210px;
+    padding-top: 30px;
+}
+
+
+/***** alignment *****/
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+
+/***** backgrounds *****/
+.light-bg {
+    background-color: white;
+}
+
+.dark-bg {
+    background-color: #000000ba;
+    color: white;
+}
+
+/***** content *****/
+p {
+    line-height: 12px;
+}
+
+span {
+    background-color: yellow;
+    padding: 5px 10px;
+}
+
+.space {
+    margin-bottom: 40px;
+}
+
+strong {
+    font-size: 2.0rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}

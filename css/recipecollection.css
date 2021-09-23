@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    line-height: 16px;
+    font-size: small;
+}
+
+
+/***** header *****/
+header {
+    background-color: white;
+    text-align: center;
+}
+
+.header-area {
+    display: inline-block;
+}
+
+header img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+header h1 {
+    color: #ff0000a6;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/***** main *****/
+main {
+    width: 1000px;
+    background-color: lightcyan;
+}
+
+
+/***** recipe cards *****/
+.card {
+    padding: 15px 45px;
+    overflow: auto;
+}
+
+
+/***** image *****/
+.image {
+    float: left;
+    width: 43%;
+}
+
+.image img {
+    width: 500px;
+    height: 550px;
+}
+
+
+/***** reciple *****/
+.recipe {
+    float: left;
+    width: 55%;
+    height: 550px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+.recipe h2 {
+    color: #ff0000a6;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/***** time *****/
+.time {
+    border: 1px solid darkgrey;
+    overflow: auto;
+}
+
+.time div {
+    float: left;
+    padding-left: 6px;
+    width: 30%;
+    text-transform: uppercase;
+}
+
+.time .cook {
+    border-left: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+
+}
+
+.time img {
+    width: 15px;
+    height: auto;
+}
+
+.time .spoons {
+    content: url(../img/recipecollection/spoons.png);
+}
+
+.time .steam {
+    content: url(../img/recipecollection/steam.png);
+}
+
+.time .clock {
+    content: url(../img/recipecollection/clock.png);
+}
+
+.time-details {
+    display: inline-block;
+    font-size: 11px;
+}
+
+.time strong {
+    font-size: 0.9rem;
+}
+
+.time li {
+    font-size: xx-small;
+}
+
+
+/***** colums *****/
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+}
+
+.recipe h3 {
+    margin: 0 10px;
+    padding-left: 6px;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff0000a6;
+}
+
+ul {
+    padding-left: 25px;
+    line-height: 22px;
+}
+
+ol {
+    padding-left: 25px;
+    line-height: 22px;
+}

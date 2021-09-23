@@ -1,0 +1,103 @@
+
+body {
+    margin-top: 10px;
+    min-width: 800px;
+}
+
+.full-width {
+    min-width: 700px;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+
+/***** header *****/
+header {
+    padding: 65px 0 65px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+nav ul li a {
+    padding-left: 80px;
+    color: #828282;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: 'Lora';
+    font-weight: normal;
+    color: #bbc085;
+    font-size: 30px;
+}
+
+header h2 {
+    font-family: 'Lora';
+    font-size: 72px;
+    float: left;
+    clear: both;
+    padding: 20px 0 20px 25px;
+    color: #9b9b9b;
+    line-height: 80px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+/***** work *****/
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#work {
+    width: 90%;
+    overflow: auto;
+    text-align: center;
+    float: left;
+    padding: 0 10px;
+    margin: 0 20px;
+    background-color: #80808029;
+}
+
+#work .third-width {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: center;
+}
+
+
+/***** polished webpages *****/
+#work h2 {
+    margin-bottom: 30px;
+}
+
+#work .images {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#work h3 {
+    text-align: center;
+    color: black;
+}
+
+#work p {
+    color: blue;
+}

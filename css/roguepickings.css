@@ -1,0 +1,109 @@
+body {
+    margin: 0 20px;
+    font-family: sans-serif;
+    max-width: 1200px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 33%;
+    float: left;
+}
+
+/***** header *****/
+header {
+    height: 110px;
+    border-bottom: 4px solid #008000b8;
+}
+
+#name {
+    float: left;
+}
+
+#tabs {
+    float: right;
+}
+
+header h1 {
+    margin-top: 33px;
+}
+
+header h1 span {
+    color: #008000b8;
+}
+
+header a {
+    margin: 45px 10px 0 10px;
+    float: right;
+    text-decoration: none;
+    color: #008000b8;
+    text-transform: uppercase;
+}
+
+/***** main *****/
+main {
+    clear: both;
+}
+
+/***** about *****/
+#about {
+    height: 466px;
+}
+
+img {
+    border-bottom: 4px solid #008000b8;
+}
+
+#about h3 {
+    color: #008000b8;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/***** content *****/
+#content {
+    margin-top: 20px;
+    overflow: auto;
+    border-top: 1px solid #0c0b0b2e;
+    border-bottom: 1px solid #0c0b0b2e;
+}
+
+#content-middle {
+    border-right: 1px solid #0c0b0b2e;
+    border-left: 1px solid #0c0b0b2e;
+}
+
+.spacing {
+    padding-left: 20px;
+}
+
+/***** footer *****/
+footer {
+    margin-top: 20px;
+}
+
+footer h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer span {
+    font-style: italic;
+    color: #008000b8;
+    text-transform: none;
+}
