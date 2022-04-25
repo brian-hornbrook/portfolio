@@ -1,169 +1,158 @@
-/***** BASE STYLES  *****/
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #2b2b2b;
 }
 
+main {
+    font-family: 'Lora';
+}
 
 /***** GRID *****/
 .full-width {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
+    margin: 0px 100px;
+    display: flex;
+
 }
 
 .half-width {
-    width: 600px;
-    float: left;
+    width: 50%;
+    display: inline-block;
     text-align: center;
-}
-
-.third-width {
-    width: 400px;
-    float: left;
-}
-
-
-/***** header *****/
-header img {
-    width: 299px;
+    align-items: stretch;
 }
 
 
 /***** ABOUT *****/
-#about .full-width {
-    padding: 80px 0;
-    padding-left: 50px;
+#about h2 {
+    margin: 50px 100px;
+    font-size: 36px;
+    /* padding: 115px 0; */
 }
 
-#about h2 {
-    font-family: 'Lora';
-    font-size: 36px;
+#about .half-width {
+    padding: 0 40px;
+    box-sizing: border-box;
 }
 
 #about p {
     color: #7f7f7f;
     font-size: 21px;
-    line-height: 40px;
-    padding: 0 15px;
 }
 
 
 /***** WORK *****/
 #work .full-width {
-    padding: 115px 0;
-    background-color: #f9ceb7;
-    text-align: center;
+    background-color: #b7e4f9;
+}
+
+#work .third-width {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 40px 20px;
 }
 
 #work img {
-    padding-bottom: 30px;
+    width: 85px;
+    height: 85px;
 }
 
 #work h3 {
-    font-size: 24px;
-    line-height: 32px;
-}
-
-#work p {
-    font-family: 'Lora';
-    font-size: 18px;
-    line-height: 30px;
-}
-
-
-/***** CONTACT *****/
-#contact .full-width {
-    background-color: #ebebeb;
-    color: #2b2b2b;
-    padding: 115px 0;
-}
-
-#contact #image {
-    padding-left: 25px;
-    border: 12px solid #ffffff;
-    margin-left: 25px;
-}
-
-#contact span {
-    color: #c49075;
-    margin-bottom: 50px;
-}
-
-#contact-info {
-    padding-top: 50px;
-}
-
-#contact h2 {
-    font-family: 'Lora';
-    font-size: 36px;
-    line-height: 44px;
-}
-
-#contact h3 {
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 44px;
-}
-
-#contact #social-media-title {
-    font-weight: bold;
-}
-
-#contact li {
-    color: #ebebeb;
-}
-
-#contact a {
-    text-decoration-color: #ebebeb;
-    color: #c49075;
+    height: 48px;
 }
 
 
 /***** HEADER *****/
 header {
-    height: 800px;
-    background: url(../img/full-background.png);
+    background: url(../img/desk.jpg);
+    background-size: cover;
+    font-family: 'Lora';
+}
+
+header .full-width {
+    padding: 50px 0 115px 0;
+    display: block;
+    height: 700px;
+}
+
+header .half-width {
+    justify-content: right;
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
 }
 
 header h1 {
-    padding: 65px 0 65px 25px;
+    font-size: 30px;
+    color: #2d2abd;
 }
 
-nav {
-    float: right;
-    padding: 70px 25px;
+header nav {
+    display: flex;
 }
 
-nav ul li {
+header nav li {
     display: inline-block;
 }
 
-nav ul li a {
-    padding-left: 80px;
-    color: #828282;
+header nav li a {
+    padding-left: 30px;
+    color: white;
     font-size: 18px;
     text-decoration: none;
 }
 
-header h1 {
-    font-family: 'Lora';
-    font-weight: normal;
-    color: #bbc085;
-    font-size: 30px;
+header img {
+    width: 299px;
 }
 
 header h2 {
-    font-family: 'Lora';
     font-size: 72px;
-    float: left;
     clear: both;
-    padding: 20px 0 20px 25px;
-    color: #9b9b9b;
-    line-height: 80px;
+    color: #32979b;
+    margin: 30px auto 40px auto;
 }
 
 header h2 span {
     color: #2b2b2b;
+}
+
+
+/***** FOOTER *****/
+footer {
+    margin-top: 10px;
+}
+
+footer .full-width {
+    background-color: #ebebeb;
+    padding: 50px 0;
+}
+
+footer .half-width {
+    width: 50%;
+}
+
+footer #contact-area {
+    display: flex;
+    background-color: white;
+}
+
+footer #contact-image {
+    background: url('../img/keyboard.jpg');
+    background-size: cover;
+    background-color: white;
+    margin: 5px 5px 5px 0;
+    width: 100%;
+}
+
+footer h3 {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+footer ul {
+    list-style-type: none;
 }
